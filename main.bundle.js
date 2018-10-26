@@ -334,7 +334,7 @@ var AuthService = /** @class */ (function () {
     function AuthService(http, _router) {
         this.http = http;
         this._router = _router;
-        this.domainUrl = "http://localhost:3000/";
+        this.domainUrl = "https://marioiliev-server.herokuapp.com/";
         this._registerUrl = this.domainUrl + "api/register";
         this._loginUrl = this.domainUrl + "api/login";
     }
@@ -469,7 +469,7 @@ var CreateNewsComponent = /** @class */ (function () {
         this._newsService = _newsService;
         this._router = _router;
         this.http = http;
-        this.domainUrl = "http://localhost:3000/";
+        this.domainUrl = "https://marioiliev-server.herokuapp.com/";
         this._createNews = this.domainUrl + "api/create-news";
         this.imageSrc = '';
         this.createdNewsData = {
@@ -572,7 +572,7 @@ var CreateSpecialEventComponent = /** @class */ (function () {
         this._newsService = _newsService;
         this._router = _router;
         this.http = http;
-        this.domainUrl = "http://localhost:3000/";
+        this.domainUrl = "https://marioiliev-server.herokuapp.com/";
         this._createSpecial = this.domainUrl + "api/create-special-event";
         this.imageSrc = '';
         this.specialEventData = {
@@ -723,7 +723,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var EventService = /** @class */ (function () {
     function EventService(http) {
         this.http = http;
-        this.domainUrl = "http://localhost:3000/";
+        this.domainUrl = "https://marioiliev-server.herokuapp.com/";
         this._eventsUrl = this.domainUrl + "api/events";
         this._specialEventsUrl = this.domainUrl + "api/special";
     }
@@ -1132,7 +1132,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var NewsService = /** @class */ (function () {
     function NewsService(http) {
         this.http = http;
-        this.domainUrl = "http://localhost:3000/";
+        this.domainUrl = "https://marioiliev-server.herokuapp.com/";
         this._newsUrl = this.domainUrl + "api/news";
     }
     NewsService.prototype.getNews = function () {
