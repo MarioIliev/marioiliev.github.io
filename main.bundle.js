@@ -1012,7 +1012,7 @@ var LoginComponent = /** @class */ (function () {
         this._auth.loginUser(this.loginUserData)
             .subscribe(function (res) {
             localStorage.setItem('token', res.token);
-            _this._router.navigate(['/special']);
+            _this._router.navigate(['/home']);
         }, function (err) { return console.log(err); });
     };
     LoginComponent = __decorate([
